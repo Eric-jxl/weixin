@@ -12,11 +12,6 @@ desired_caps = {
     'appActivity': '.ui.LauncherUI'
 }
 
-# desired_caps = {
-#     'platformName': 'Android',
-#     'deviceName': 'MI_NOTE_Pro',
-#     'app': './weixin.apk'
-# }
 
 driver = webdriver.Remote(server, desired_caps)
 wait = WebDriverWait(driver, 30)
